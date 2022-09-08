@@ -4,6 +4,17 @@
 
 **SemanticRL is designed to preserve the semantic information instead of strictly securing the bit-level precision. It enables a general-purpose, large-scale, wireless, and semantic communication framework.**
 
+Note that this is a research project and by definition is unstable. Please write to us if you find something not correct or strange. We are sharing the codes under the condition that reproducing full or part of codes must cite the paper.
+```
+@article{lu2021reinforcement,
+  title={Reinforcement learning-powered semantic communication via semantic similarity},
+  author={Lu, Kun and Li, Rongpeng and Chen, Xianfu and Zhao, Zhifeng and Zhang, Honggang},
+  journal={arXiv preprint arXiv:2108.12121},
+  url={https://arxiv.org/abs/2108.12121},
+  year={2021}
+}
+```
+
 ## Features
 + A schematic shift from bit-precision to semantic consistency.
 + Compatible with any (non-differenable) semantic similarity metric as the objective function.
@@ -98,18 +109,6 @@ Besides `LSTM` backbone, we provide a `Transformer` backbone to facilitate furth
 ## Thanks
 
 This repository is largely inspired by [ruotianluo's excellent captioning work](https://github.com/ruotianluo/ImageCaptioning.pytorch).
-
-
-## Citation
-```
-@article{lu2021reinforcement,
-  title={Reinforcement learning-powered semantic communication via semantic similarity},
-  author={Lu, Kun and Li, Rongpeng and Chen, Xianfu and Zhao, Zhifeng and Zhang, Honggang},
-  journal={arXiv preprint arXiv:2108.12121},
-  url={https://arxiv.org/abs/2108.12121},
-  year={2021}
-}
-```
 
 
 
